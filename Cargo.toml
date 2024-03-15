@@ -11,4 +11,4 @@ keywords = ["vad", "fvad"]
 categories = ["multimedia::audio"]
 
 [dependencies]
-libfvad-sys = "1.0.0"
+libfvad-sys = {git = "https://github.com/xd009642/libfvad-sys", branch = "version/bump-fvad"  }
